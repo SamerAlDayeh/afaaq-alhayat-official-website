@@ -1,0 +1,102 @@
+.filter-wrapper {
+  margin: 0 auto 3rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.catalog-stats-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 1rem;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+.empty-results-box {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: var(--secondary-light);
+  border-radius: var(--border-radius-md);
+  margin: 2rem 0;
+}
+.notice-box {
+  margin-top: 5rem;
+  background: linear-gradient(135deg, #fef9e3 0%, #fff6e0 100%);
+  border-right: 5px solid #88b959;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: var(--shadow-sm, 0 1px 2px 0 rgba(0, 0, 0, 0.05));
+  transition: var(--transition, all 0.3s ease);
+}
+
+.notice-box:hover {
+  box-shadow: var(--shadow-md, 0 4px 6px -1px rgba(0, 0, 0, 0.1));
+  transform: translateY(-2px);
+}
+
+.notice-box-content {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.notice-icon {
+  font-size: 2.5rem;
+  flex-shrink: 0;
+}
+
+.notice-text h4 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--secondary-dark, #e76f51);
+  margin-bottom: 0.5rem;
+}
+
+.notice-text p {
+  font-size: 0.95rem;
+  color: var(--text-dark, #1f2937);
+  line-height: 1.6;
+  margin: 0;
+}
+
+.filter-wrapper {
+  margin: 0 auto 3rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.catalog-stats-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border-color, #e5e7eb);
+  padding-bottom: 1rem;
+  color: var(--text-muted, #6b7280);
+  font-size: 0.95rem;
+}
+
+.empty-results-box {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: var(--secondary-light, #fef7e8);
+  border-radius: var(--border-radius-md, 0.75rem);
+  margin: 2rem 0;
+  color: var(--text-muted, #6b7280);
+}
+
+.empty-results-box p {
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.empty-results-box .btn {
+  margin-top: 1rem;
+}
